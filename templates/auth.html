@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+    <title>Basketball Dribbble API Key Generator</title>
+    <meta name="description" content="API Key generator for Dribbble to use with your Basketball installation.">
+    <link rel="icon" type="image/png" sizes="1000x1000" href="/assets/img/IMG_0812.png">
+    <link rel="icon" type="image/png" sizes="1000x1000" href="/assets/img/IMG_0812.png">
+    <link rel="icon" type="image/png" sizes="1000x1000" href="/assets/img/IMG_0812.png">
+    <link rel="icon" type="image/png" sizes="1000x1000" href="/assets/img/IMG_0812.png">
+    <link rel="icon" type="image/png" sizes="1000x1000" href="/assets/img/IMG_0812.png">
+    <link rel="stylesheet" href="/assets/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Space+Mono:400,400i,700,700i&amp;display=swap">
+    <link rel="stylesheet" href="/assets/css/Highlight-Clean.css">
+    <link rel="stylesheet" href="/assets/css/styles.css">
+</head>
+
+<body>
+    <section class="highlight-clean">
+        <div class="container" style="margin-top: 5vh;">
+            <div class="intro" style="min-width: 50%;">
+                <h2 class="text-center" style="margin-bottom: 5px;"><img src="/assets/img/IMG_0810.png" alt="basketball Logo" style="width: 225px;margin-bottom: 25px;"><br>Generate your Dribbble API Key</h2>
+                <p class="text-center">Enter your Dribbble Application's details to generate your API key for your Basketball installation.</p>
+                <form style="margin-top: 35px;background: #eeeeee;border-radius: 5px;padding: 15px;" method="post" enctype="multipart/form-data" action="/auth/generate">
+                    <h2 style="font-size: 20px;margin-bottom: 10px;">Step 3: Generate API Key</h2><div class="form-floating mb-3">
+  <input type="text" class="form-control" name="code" value="{{ code }}" placeholder=" ">
+  <label for="floatingInput">Dribbble Authorization Code</label>
+</div>
+
+<div class="form-floating mb-3">
+  <input type="text" class="form-control" name="clientid" id="floatingInput" placeholder=" ">
+  <label for="floatingInput">Dribbble Client ID</label>
+</div><div class="form-floating mb-3">
+  <input type="text" class="form-control" name="clientsecret" id="floatingInput" placeholder=" ">
+  <label for="floatingInput">Dribbble Client Secret</label>
+</div><button class="btn btn-primary" type="submit" style="min-width: 100%;padding-top: 10px;padding-bottom: 10px;background: rgb(206,67,0);border-style: none;"><strong>Next</strong><svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round" class="icon icon-tabler icon-tabler-arrow-right" style="font-size: 20px;margin-bottom: 3px;margin-left: 5px;">
+                            <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+                            <line x1="5" y1="12" x2="19" y2="12"></line>
+                            <line x1="13" y1="18" x2="19" y2="12"></line>
+                            <line x1="13" y1="6" x2="19" y2="12"></line>
+                        </svg></button>
+                </form>
+            </div>
+        </div>
+    </section>
+    <script src="/assets/js/jquery.min.js"></script>
+    <script src="/assets/bootstrap/js/bootstrap.min.js"></script>
+</body>
+
+</html>

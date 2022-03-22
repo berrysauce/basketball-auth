@@ -1,0 +1,13 @@
+a:hover {
+  color: inherit;
+  opacity: 0.7;
+}
+
+a {
+  color: inherit;
+}
+
+.form-floating {
+  font-family: 'Space Mono', monospace;
+}
+
